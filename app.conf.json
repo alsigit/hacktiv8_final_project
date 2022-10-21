@@ -1,0 +1,22 @@
+{
+    "base_url":"http://localhost:1225/",
+    "database":{
+        "host":"localhost",
+        "port":5433,
+        "user":"postgres",
+        "pass":"masukaja",
+        "name":"hactiv8_final"
+    },
+    "jwt": {
+        "token_secret": "ENTEKADANGKADANGENTE",
+        "expired_duration": 300000
+    },
+    "server": {
+        "port": 1225,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "asset_image_upload_path":"./views/statics/photos/"
+}
